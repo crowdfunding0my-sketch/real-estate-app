@@ -1,0 +1,28 @@
+:root {
+  --text: #333333;
+  --text-h: #111111;
+  --bg: #f5f6f8;
+  --border: #dddddd;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --danger: #dc2626;
+
+  font: 16px/145% system-ui, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: var(--text-h);
+  font-size: 28px;
+  margin: 0 0 16px;
+}
